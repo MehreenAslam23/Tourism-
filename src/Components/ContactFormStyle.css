@@ -1,0 +1,45 @@
+.form-container{
+    margin: 4rem 6rem;
+}
+.form-container h1{
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.form-container input{
+    margin-bottom: 1.5rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+
+}
+.form-container textarea{
+    margin-bottom: 1.5rem;
+    padding: 0.4rem;
+}
+.form-container button{
+    padding: 0.5rem;
+   background-color: orange;
+   color: black;
+   letter-spacing: 1px;
+   font-weight: bold;
+   border: none;
+}
+@media screen and (max-width:850px) {
+    .form-container{
+        margin: 4rem 2rem;
+    }
+    .form-container form{
+        width: 80%;
+        margin: auto;
+    }
+    .form-container h1{
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        font-size: 1.8rem;
+    }
+}

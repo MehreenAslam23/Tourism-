@@ -1,0 +1,18 @@
+.about-div{
+    padding: 6rem 15rem 9rem 15rem;
+    text-align: start;
+}
+.about-div h2{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+}
+.about-div p{
+    padding-bottom: 3rem;
+}
+@media screen and (max-width:850px) {
+    .about-div{
+        padding: 2rem 2rem;
+        text-align: start;
+    }
+}

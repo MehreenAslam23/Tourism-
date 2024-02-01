@@ -1,0 +1,97 @@
+.dest-box{
+    padding: 2rem 4rem;
+}
+.dest-head{
+    padding: 3rem 1rem;
+}
+.dest-head h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.dest-body-1{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 3rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.dest-body-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3rem 3rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.dest-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1rem;
+}
+.dest-text h2{
+    padding-bottom: 1rem;
+}
+.dest-image{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 50%;
+    z-index: -99;
+}
+.dest-image img{
+  height: 400px;
+  width: 49%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: -1px 1px 62px -18px rgba(0,0,0, 0.19);
+}
+.dest-image img:nth-child(2){
+    position: absolute;
+    top: -30px;
+    right: 0px;
+}
+@media screen and (max-width:850px)
+{
+    .dest-box{
+        padding: 1rem 1.5rem;
+    }
+    .dest-head h1{
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+    .dest-head p{
+        font-size: 1rem;
+    }
+    .dest-body-1{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 0rem 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .dest-body-2{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 2rem 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .dest-text{
+        width: 100%;
+        text-align: start;
+        font-size: 1rem;
+        margin-top: 8rem;
+    }
+    .dest-image{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: -1px 1px 62px -18px rgba(0,0,0, 0.19);
+      }
+      .dest-text h2{
+        font-size: 2rem;
+    }
+}
